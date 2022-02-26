@@ -5,6 +5,7 @@
 /* Colors */
 /*** EXTEND ***/
 /* box-shadow */
+
 .planta {
     color: #1d1f20;
     text-decoration: none;
@@ -18,17 +19,18 @@
 
 }
  ol.gradient-list > li, ol.gradient-list > li::before {
-	 box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+	 box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.041), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
 }
 /*** STYLE ***/
  *, *:before, *:after {
 	 box-sizing: border-box;
+	 
      
 }
  .textocuadros {
      overflow: hidden;
      text-decoration: none;
-	 background-color: #fafafa;
+	 background-color: #fafafa00;
 	 color: #1d1f20;
      font-size: larger;
 	 font-family: "Shippori Antique B1";
@@ -36,18 +38,21 @@
      
 }
  main {
+	 
 	 display: block;
 	 margin-left: 5%;
 	 max-width: 15rem;
 	 
 }
  ol.gradient-list {
+	 float: right;
 	 counter-reset: gradient-counter;
 	 list-style: none;
 	 margin: 1.75rem 0;
 	 padding-left: 1rem;
 }
  ol.gradient-list > li {
+	 
 	 background: white;
 	 border-radius: 0 0.5rem 0.5rem 0.5rem;
 	 counter-increment: gradient-counter;
@@ -58,6 +63,7 @@
 }
 
  ol.gradient-list > li::before, ol.gradient-list > li::after {
+	 float: right;
 	 background: linear-gradient(135deg, #83e4e2 0%, #a2ed56 100%);
 	 border-radius: 1rem 1rem 0 1rem;
 	 content: '';
@@ -70,6 +76,7 @@
      
 }
  ol.gradient-list > li::before {
+	 float: right;
 	 align-items: flex-end;
 	 content: counter(gradient-counter);
 	 color: #1d1f20;
@@ -80,6 +87,7 @@
 	 z-index: 1;
 }
  ol.gradient-list > li:nth-child(10n+1):before {
+	 
 	 background: linear-gradient(135deg, rgba(162, 237, 86, 0.2) 0%, rgba(253, 220, 50, 0.2) 100%);
 }
  ol.gradient-list > li:nth-child(10n+2):before {
