@@ -1,33 +1,62 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:900|Raleway:400,400i,700,700i);
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;700&family=Roboto+Serif:wght@200;500;800&family=Roboto:wght@400;500;900&family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 /*** FONTS ***/
 /*** VARIABLES ***/
 /* Colors */
 /*** EXTEND ***/
 /* box-shadow */
+.imagen{
+	width: 0%;
+	display: none;
+	
 
+}
+.planta:hover + .imagen{
+	display: block;
+	top: -7%;
+	left: 55%;
+	margin-right: 10px;
+	margin-top: 30px;
+	position:absolute;
+	width: 40%;
+	border-radius: 5%;
+	border: #d6d6d64f;
+	border-width: 5px;
+	border-style:solid;
+	height: 89.8%;
+}
 .planta {
-    color: #d6d6d6;
+    color: #d6d6d65b;
     text-decoration: none;
-	font-size: x-large;
+	font-size:5rem;
 	margin-top: 10%;
+	font-family: Shizuru;
+}
+.plantaN {
+    color: #d6d6d65b;
+    text-decoration: none;
+	font-size: large;
+	margin-top: 10%;
+	font-family: 'Dancing Script', cursive;
 }
 
 .planta:hover {
     color:#ffffff; 
     text-decoration:none; 
     cursor:pointer;  
-    font-size: x-large;
+    font-size:5rem;
+	margin-top: 10%;
+	font-family: Shizuru;
 
 }
- ol.gradient-list > li, ol.gradient-list > li::before {
-	 box-shadow: 0.25rem 0.75rem 0.60rem rgba(0, 0, 0, 0.185), 0 0.5rem 1.125rem rgba(10, 10, 10, 0);
-	 
-	
-}
+
+ 
 /*** STYLE ***/
  *, *:before, *:after {
 	 box-sizing: border-box;
+	 
 	 
      
 }
@@ -44,12 +73,14 @@
  main {
 	 float: left;
 	 display: block;
-	 margin-left: 10%;
+	 margin-left: 5%;
+	 position: relative;
+	 max-width: 30%;
+	
 	 
 	 
 }
  ol.gradient-list {
-	 float: right;
 	 counter-reset: gradient-counter;
 	 list-style: none;
 	 margin: 1.75rem 0;
@@ -66,7 +97,6 @@
 }
 
  ol.gradient-list > li::before, ol.gradient-list > li::after {
-	 float: right;
 	 background: linear-gradient(135deg, #83e4e2 0%, #a2ed56 100%);
 	 border-radius: 1rem 1rem 0 1rem;
 	 content: '';
@@ -79,7 +109,6 @@
      
 }
  ol.gradient-list > li::before {
-	 float: right;
 	 align-items: flex-end;
 	 content: counter(gradient-counter);
 	 color: #1d1f20;

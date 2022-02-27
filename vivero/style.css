@@ -23,6 +23,7 @@ a{
   }
       /* Add a black background color to the top navigation */
       .topnav {
+        background-attachment: fixed;
         margin: 8px;
         border-radius: 17px;
         background-color: rgb(228, 226, 226);
