@@ -6,9 +6,13 @@
                 href="https://images.vexels.com/media/users/3/210458/isolated/preview/4fa2a438b3168db10f393a6421518c30-planta-en-maceta-marron-ilustracion.png">
             <title>Plantas</title>
             <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
             <style>
                 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200;500;800&family=Roboto:wght@400;500;900&display=swap');
                 @import url(./style.css);
+                @import url(./styleF.css);
                 
                 
                 /* Add a black background color to the top navigation */
@@ -37,6 +41,7 @@
                 .topnav a:hover {
                 background-color: rgb(180, 180, 180);
                 color: black;
+                text-decoration: none;
                 }
 
                 /* Add a color to the active/current link */
@@ -60,6 +65,10 @@
                
 
             </style>
+            <meta charset="uft-8">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+            <link rel="stylesheet" href="assets/css/style.css">
         </head>
         <body>
             <div class="fondo">
@@ -67,7 +76,7 @@
                     <a href="/">Home</a>
                     <a class="active" href="/plantas/plantas.html">Plantas</a>
                     <a href="#contact">Inventario</a>
-                    <a href="/vivero/   vivero.html">Vivero</a>
+                    <a href="/vivero/vivero.html">Vivero</a>
                 </div>
                 <main>
                     <div class="textocuadros">
@@ -83,7 +92,12 @@
                             <li>
                                 <a href="/plantas/culantro/culantro.html">Culantro</a>
                             </li>
-                            <li>Curabitur in orci vel risus facilisis accumsan.</li>
+                            <li>
+                                <a href="/plantas/hierbabuena/hierbabuena.html" class="planta" style="font-size:xx-large">Hierba Buena</a>
+                                <p class="plantaN">
+                                    Mentha Spicata
+                                </p>
+                            </li>
                             <li>Morbi eleifend tortor lacinia sapien sagittis, quis pellentesque felis egestas.</li>
                             <li>Aenean viverra dui quis leo lacinia fringilla.</li>
                             <li>Sed varius lectus ac condimentum egestas.</li>
@@ -124,6 +138,24 @@
                     </div>
                 </main>
             </div>
+              <!--Pie de pagina-
+            -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-..-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+            -->
+            <div class="footer-basic">
+                <footer>
+                    <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="https://m.facebook.com/profile.php?id=1636212336640445"><i class="icon ion-social-facebook"></i></a></div>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="/">Home</a></li>
+                        <li class="list-inline-item"><a href="/plantas/plantas.html">Plantas</a></li>
+                        <li class="list-inline-item"><a href="https://ceuna.net">CEUNA</a></li>
+                        <li class="list-inline-item"><a href="#">Inventario</a></li>
+                        <li class="list-inline-item"><a href="/vivero/vivero.html">Vivero</a></li>
+                    </ul>
+                    <p class="copyright">CEUNA © 2022</p>
+                </footer>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
                 
         </body>
     </html>
