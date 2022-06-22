@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200;500;800&family=Roboto:wght@400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+a:visited{
+  text-decoration: none;
+  
+}
+a{
+  text-decoration: none;
+  
+}
+*{
+  margin:0px;
+  padding:0px;
+  }
+  model-viewer{
+  width:100%;
+  height:1000px;
+  background-color:rgb(255, 255, 255);
+  }
+  /* Add a black background color to the top navigation */
+      .topnav {
+        color:#272727;
+        background-attachment: fixed;
+        margin: 8px;
+        border-radius: 17px;
+        background-color: rgb(228, 226, 226);
+        overflow: hidden;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            color:#272727;
+            font-family: Roboto;
+            float: left;
+            color: #272727;
+            text-align: center;
+            padding: 20px 30px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 900;
+            }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+        background-color: rgb(180, 180, 180);
+        color: black;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+        background-color: #f7e548;
+        color: rgb(49, 49, 49);
+        }
+        .view-button {
+            background: linear-gradient(45deg, rgba(29,31,32,1) 0%, rgba(211,22,22,1) 63%, rgba(236,21,21,1) 100%);
+            border: 3px solid rgba(255, 0, 0, 0.541);
+            border-radius: 100%;
+            box-shadow: 0 2px 2px rgba(100, 100, 100, 0);
+            
+            display: block;
+            font-family: Futura, Helvetica Neue, sans-serif;
+            font-size: xx-large;
+            overflow-wrap: break-word;
+            padding: 0.5em 1em;
+            position: absolute;
+            width: 4em;
+            height: 4em;
+            transform: translate3d(-50%, -50%, 0);
+            text-decoration: none;
+          }
+          model-viewer#reveal {
+            --poster-color: transparent;
+          }
+          .cigarros{
+            top: -50%;
+            left: -50%;
+            width:200%;
+            height:200%;
+            background-color: #27272700;
+          }
+          .desc{
+            padding-left: 10px;
+            padding-right: 10px;
+            font-family: 'Indie Flower', cursive;
+            background-color: #fcec629d;
+            color: black;
+            font-size: x-large;
+          }

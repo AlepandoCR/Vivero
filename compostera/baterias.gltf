@@ -1,0 +1,336 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        },
+        {
+            "name" : "Sun",
+            "rotation" : [
+                0.06149496138095856,
+                0.013801290653645992,
+                -0.3793184757232666,
+                0.9231172204017639
+            ],
+            "scale" : [
+                17.596323013305664,
+                17.596323013305664,
+                17.596323013305664
+            ],
+            "translation" : [
+                1.3705815076828003,
+                1.7469122409820557,
+                0
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "battery.001",
+            "rotation" : [
+                0,
+                0.17578771710395813,
+                0,
+                0.9844281077384949
+            ],
+            "scale" : [
+                1.3187978267669678,
+                1.5070277452468872,
+                1.318800687789917
+            ],
+            "translation" : [
+                -0.22243934869766235,
+                0.3169287145137787,
+                0.06859253346920013
+            ]
+        },
+        {
+            "name" : "Camera.001",
+            "rotation" : [
+                0.06805592775344849,
+                -0.8228569030761719,
+                0.5550829172134399,
+                0.1007862389087677
+            ],
+            "translation" : [
+                -1.1412791013717651,
+                2.133350372314453,
+                -4.576562881469727
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "battery.002",
+            "rotation" : [
+                0.016479063779115677,
+                -0.37384042143821716,
+                0.7069146037101746,
+                0.6002029180526733
+            ],
+            "scale" : [
+                1.3187980651855469,
+                1.5070277452468872,
+                1.318800449371338
+            ],
+            "translation" : [
+                0.05097246170043945,
+                0.08254870027303696,
+                -0.19699586927890778
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "duracell",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "energizer",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 3,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder.186",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Cylinder.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 3,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Diffuse_Duracell",
+            "uri" : "texturas%20baterias/Diffuse_Duracell.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Metallic-Roughness",
+            "uri" : "texturas%20baterias/Metallic-Roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Diffuse_Energizer",
+            "uri" : "texturas%20baterias/Diffuse_Energizer.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Metallic.png-Roughness.png",
+            "uri" : "texturas%20baterias/Metallic_png-Roughness_png.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1374,
+            "max" : [
+                0.054400112479925156,
+                0.160825714468956,
+                0.05440003052353859
+            ],
+            "min" : [
+                -0.05440014973282814,
+                -0.20417249202728271,
+                -0.05440003052353859
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1374,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1374,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 6144,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1374,
+            "max" : [
+                0.054400112479925156,
+                0.160825714468956,
+                0.05440003052353859
+            ],
+            "min" : [
+                -0.05440014973282814,
+                -0.20417249202728271,
+                -0.05440003052353859
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1374,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 1374,
+            "type" : "VEC2"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 16488,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16488,
+            "byteOffset" : 16488
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10992,
+            "byteOffset" : 32976
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12288,
+            "byteOffset" : 43968
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16488,
+            "byteOffset" : 56256
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16488,
+            "byteOffset" : 72744
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10992,
+            "byteOffset" : 89232
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 100224,
+            "uri" : "baterias.bin"
+        }
+    ]
+}
