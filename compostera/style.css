@@ -86,3 +86,6 @@ a{
             color: black;
             font-size: x-large;
           }
+          .desc:hover{
+            font-weight:bolder;
+          }
